@@ -1,0 +1,66 @@
+/* General CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8faf6;
+}
+
+/* Header Design */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0f3924;
+    padding: 20px 7%;
+}
+
+/* Logo */ 
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+nav a:hover {
+    color: #f5c542;
+}
+
+/* Shop Button */
+
+.shop-btn {
+    background-color: #e6b83f;
+    color: #173f2b;
+
+    border: none;
+    padding: 12px 22px;
+
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
